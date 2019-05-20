@@ -1,12 +1,22 @@
 /* For mobile phones */
 
+* {
+  box-sizing: border-box;
+}
+
 .player {
 	border: 3px solid black;
+	/*clear: both;
+	overflow: auto;*/
+	display: flex;
+	flex-wrap: nowrap;
 }
 
 .credentials {
+	float: left;
+	width: 33%;
 	border: 2px solid red;
-	
+	overflow: auto;
 }
 
 .name, .position, .club {
@@ -14,9 +24,17 @@
 }
 
 .photo {
-	
+	float: left;
+	width: 33%;
 }
 
 .flag {
-	
+	float: left;
+	width: 33%;
+}
+
+.player::after {
+  content: "";
+  clear: both;
+  display: table;
 }
