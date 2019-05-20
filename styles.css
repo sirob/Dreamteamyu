@@ -1,3 +1,22 @@
+/* For mobile phones */
+
 .player {
-	border-style:solid;
+	border: 3px solid black;
+}
+
+.credentials {
+	border: 2px solid red;
+	
+}
+
+.name, .position, .club {
+	border: 1px solid green;
+}
+
+.photo {
+	
+}
+
+.flag {
+	
 }
