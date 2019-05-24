@@ -4,17 +4,23 @@
   box-sizing: border-box;
 }
 
+
+body {
+	padding: 2%;
+}
+
 .player {
 	border: 3px solid black;
 	/*clear: both;
 	overflow: auto;*/
 	display: flex;
 	flex-wrap: nowrap;
+	align-items: flex-start;
 }
 
 .credentials {
 	float: left;
-	width: 33%;
+	width: 50%;
 	border: 2px solid red;
 	overflow: auto;
 }
@@ -23,14 +29,31 @@
 	border: 1px solid green;
 }
 
+h2 {
+	font-size: 0.9em;
+	margin: 0;
+}
+
+.position {
+	float: left;
+	font-size: 0.8em;
+}
+
+.club {
+	float: right;
+	font-size: 0.8em;
+}
+
 .photo {
 	float: left;
-	width: 33%;
+	width: 25%;
+	max-width: 100px;
 }
 
 .flag {
 	float: left;
-	width: 33%;
+	width: 25%;	
+	max-width: 108px;
 }
 
 .player::after {
