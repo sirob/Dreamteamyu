@@ -7,11 +7,23 @@
 
 body {
 	padding: 2%;
+	font-family: 'Open Sans', sans-serif
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+	font-size: 1em;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
 }
 
 .player {
-	border: 3px solid black;
-	/*clear: both;
+	/*border: 1px solid blue;*/
+	border-top: 1px solid black;
+	/* clear: both;
 	overflow: auto;*/
 	display: flex;
 	flex-wrap: nowrap;
@@ -20,39 +32,37 @@ body {
 
 .credentials {
 	float: left;
-	width: 50%;
-	border: 2px solid red;
+	width: 58%;
+	/*border: 2px solid red;*/
 	overflow: auto;
+	margin-top: 5%;
 }
 
 .name, .position, .club {
-	border: 1px solid green;
-}
-
-h2 {
-	font-size: 0.9em;
-	margin: 0;
+	/*border: 1px solid green;*/
 }
 
 .position {
 	float: left;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 .club {
+	display: none;
 	float: right;
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 
 .photo {
 	float: left;
-	width: 25%;
+	width: 31%;
 	max-width: 100px;
+	margin-top: 5%;
 }
 
 .flag {
 	float: left;
-	width: 25%;	
+	width: 11%;	
 	max-width: 108px;
 }
 
