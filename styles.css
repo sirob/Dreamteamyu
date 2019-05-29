@@ -62,7 +62,7 @@ h2 {
 
 .flag {
 	float: left;
-	width: 11%;	
+	width: 11%;
 	max-width: 108px;
 }
 
@@ -70,4 +70,27 @@ h2 {
   content: "";
   clear: both;
   display: table;
+}
+
+#coach {
+  font-size: 0.9em;
+  margin-top: 7%;
+}
+
+#contact {
+  font-size: 0.8em;
+}
+
+#contact img {
+  max-width: 20px;
+  vertical-align:text-bottom;
+  margin-left: 0.4em;
+}
+
+#contact img:hover {
+  opacity: 0.5;
+}
+
+img:active {
+  opacity: 0.5;
 }
