@@ -15,7 +15,7 @@ h1{
 }
 
 h2 {
-	font-size: 1em;
+	/*font-size: 1em;*/
 	margin: 0;
 	font-family: 'Nunito', sans-serif;
 }
@@ -44,7 +44,7 @@ h2 {
 
 .position {
 	float: left;
-	font-size: 0.7em;
+	/*font-size: 0.7em;*/
 }
 
 .club {
@@ -56,14 +56,14 @@ h2 {
 .photo {
 	float: left;
 	width: 31%;
-	max-width: 100px;
+	/*max-width: 100px;*/
 	margin-top: 5%;
 }
 
 .flag {
 	float: left;
 	width: 11%;
-	max-width: 108px;
+	/*max-width: 108px;*/
 }
 
 .player::after {
@@ -73,16 +73,16 @@ h2 {
 }
 
 #coach {
-  font-size: 0.9em;
+  /*font-size: 0.9em;*/
   margin-top: 7%;
 }
 
 #contact {
-  font-size: 0.8em;
+  /*font-size: 0.8em;*/
 }
 
 #contact img {
-  max-width: 20px;
+  max-width: 30px;
   vertical-align:text-bottom;
   margin-left: 0.4em;
 }
