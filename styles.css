@@ -34,13 +34,13 @@ h2 {
 .credentials {
 	float: left;
 	width: 58%;
-	/*border: 2px solid red;*/
+	/*: 2px solid red;*/
 	overflow: auto;
 	margin-top: 5%;
 }
 
 .name, .position, .club {
-	/*border: 1px solid green;*/
+	/*border: 1px solid green; */
 }
 
 .position {
@@ -51,6 +51,12 @@ h2 {
 .club {
 	display: none;
 	float: right;
+	font-size: 0.9em;
+}
+
+.full_position {
+	display: none;
+	float: left;
 	font-size: 0.9em;
 }
 
@@ -97,5 +103,20 @@ img:active {
 }
 
 @media only screen and (min-width: 360px) {
+	h1, p, .name, #coach, #contact {
+		text-align: center;
+	}
+	
+	.position {
+		display: none;
+	}
+	
+	.club {
+		display: unset;
+	}
+	
+	.full_position {
+		display: unset;
+	}
 	
 }
