@@ -12,6 +12,7 @@ body {
 
 h1{
 	font-family: 'Nunito', sans-serif;
+	margin-top: 0;
 }
 
 h2 {
@@ -93,4 +94,8 @@ h2 {
 
 img:active {
   opacity: 0.5;
+}
+
+@media only screen and (min-width: 360px) {
+	
 }
