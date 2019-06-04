@@ -32,7 +32,7 @@ h2 {
 
 .credentials {
 	float: left;
-	width: 55%;
+	width: 50%;
 	/*border: 2px solid red;*/
 	overflow: auto;
 	margin-top: 5%;
@@ -62,7 +62,7 @@ h2 {
 
 .flag {
 	float: left;
-	width: 15%;
+	width: 20%;
 	/*max-width: 108px;*/
 }
 
