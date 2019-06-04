@@ -24,7 +24,7 @@ h2 {
 .player {
 	/*border: 1px solid blue;*/
 	border-top: 1px solid black;
-	/* clear: both;
+  /*clear: both;
 	overflow: auto;*/
 	display: flex;
 	flex-wrap: nowrap;
@@ -34,13 +34,13 @@ h2 {
 .credentials {
 	float: left;
 	width: 58%;
-	/*: 2px solid red;*/
+	/*border: 2px solid red;*/
 	overflow: auto;
 	margin-top: 5%;
 }
 
-.name, .position, .club {
-	/*border: 1px solid green; */
+.name, .position, .club, .full_position {
+	/*border: 1px solid green;*/
 }
 
 .position {
@@ -81,11 +81,13 @@ h2 {
 
 #coach {
   font-size: 0.9em;
-  margin-top: 7%; 
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
 #contact {
   font-size: 0.8em;
+  margin-bottom: 3%;
 }
 
 #contact img {
@@ -103,20 +105,57 @@ img:active {
 }
 
 @media only screen and (min-width: 360px) {
-	h1, p, .name, #coach, #contact {
+	h1,  #contact {
 		text-align: center;
 	}
-	
-	.position {
+
+/*	.position {
 		display: none;
 	}
-	
+
 	.club {
 		display: unset;
 	}
-	
+
 	.full_position {
 		display: unset;
 	}
-	
-}
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p {
+    margin-bottom: 4%;
+  }
+
+  .name {
+    margin-bottom: 4%;
+  }
+
+  .full_position, .club {
+    font-size: 1em;
+    font-style: italic;
+  }
+
+  .photo, .credentials, .flag {
+    margin-top: 2.5%;
+  }
+
+  .photo {
+    margin-right: 5%;
+  }
+
+  .credentials {
+    margin-right: 5%;
+  }
+
+  .club {
+    padding-right: 8%;
+  }
+
+  .flag {
+    margin-left: 0%;
+  }
+
+} */
