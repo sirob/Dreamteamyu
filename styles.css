@@ -15,8 +15,8 @@ h1{
 }
 
 h2 {
-	/*font-size: 1em;*/
-	margin: 0;
+	/*font-size: 1em;
+	margin: 0;*/
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -32,7 +32,7 @@ h2 {
 
 .credentials {
 	float: left;
-	width: 58%;
+	width: 55%;
 	/*border: 2px solid red;*/
 	overflow: auto;
 	margin-top: 5%;
@@ -55,14 +55,14 @@ h2 {
 
 .photo {
 	float: left;
-	width: 31%;
+	width: 30%;
 	/*max-width: 100px;*/
 	margin-top: 5%;
 }
 
 .flag {
 	float: left;
-	width: 11%;
+	width: 15%;
 	/*max-width: 108px;*/
 }
 
@@ -73,8 +73,8 @@ h2 {
 }
 
 #coach {
-  /*font-size: 0.9em;*/
-  margin-top: 7%;
+  /*font-size: 0.9em;
+  margin-top: 7%; */
 }
 
 #contact {
@@ -84,7 +84,7 @@ h2 {
 #contact img {
   max-width: 30px;
   vertical-align:text-bottom;
-  margin-left: 0.4em;
+  /*margin-left: 0.4em;*/
 }
 
 #contact img:hover {
