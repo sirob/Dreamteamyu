@@ -104,58 +104,32 @@ img:active {
   opacity: 0.5;
 }
 
-@media only screen and (min-width: 360px) {
-	h1,  #contact {
+@media only screen and (min-width: 380px) {
+	h1, p, #contact {
 		text-align: center;
 	}
-
-/*	.position {
-		display: none;
+	
+	.flag {
+		max-width: 50px;
 	}
-
-	.club {
-		display: unset;
+	
+	h2 {
+		font-size: 1.1em;
 	}
-
-	.full_position {
-		display: unset;
+	
+	.credentials {
+		margin-left: 12%;
 	}
-
-  h2 {
-    font-size: 1.3em;
-  }
-
-  p {
-    margin-bottom: 4%;
-  }
-
-  .name {
-    margin-bottom: 4%;
-  }
-
-  .full_position, .club {
-    font-size: 1em;
-    font-style: italic;
-  }
-
-  .photo, .credentials, .flag {
-    margin-top: 2.5%;
-  }
-
-  .photo {
-    margin-right: 5%;
-  }
-
-  .credentials {
-    margin-right: 5%;
-  }
-
-  .club {
-    padding-right: 8%;
-  }
-
-  .flag {
-    margin-left: 0%;
-  }
-
-} */
+	
+	.position {
+		font-size: 0.8em;
+	}
+	
+	.photo, .credentials, {
+		margin-top: 2.5%;
+	}
+	
+	#coach {
+		margin-left: 1.5%;
+	}
+}
