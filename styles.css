@@ -73,6 +73,10 @@ h2 {
 	max-width: 108px;
 }
 
+.flag_cred {
+	display: none;
+}
+
 .player::after {
   content: "";
   clear: both;
@@ -104,7 +108,7 @@ img:active {
   opacity: 0.5;
 }
 
-@media only screen and (min-width: 380px) {
+@media only screen and (min-width: 360px) {
 	h1, p, #contact {
 		text-align: center;
 	}
@@ -134,7 +138,7 @@ img:active {
 	}
 }
 
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 660px) {
 	
 	body {
 		padding: 0 7.5%;
@@ -149,24 +153,60 @@ img:active {
 	.player {
 		width: 260px;
 		border-top: unset;
+		display: unset;
 	}
 	
 	.position {
 		display: none;
 	}
 	
-	.full_position, .club {
+	.full_position {
 		display: unset;
 		float: left;
 	}
 	
-	.info {
-		
+	.club {
+		display: unset;
+		float: right;
+	}
+	
+	.credentials {
+		position: relative;
+		overflow:auto;
+		background-color: #F0F0F0;
+		width: 100%;
+		float: left;
+		padding: 2%;
+		font-size: 1.05em;
+		margin: unset;
 	}
 	
 	.photo {
-		max-width: 260px;
-		clear: left;
+		width: 70%;
+		max-width: 180px;
+		margin-left: 15%;
+		
+	}
+	
+	.flag {
+		display: none;
+	}
+	
+	.flag_cred {
+		position: absolute;
+		display: unset;
+		top: 0px;
+		right: 0px;
+		width: 12%;
+		max-width: 108px;
+	}
+	
+	h1 {
+		margin: unset;
+	}
+	
+	h2 {
+		font-size: 1.3em;
 	}
 	
 	#coach {
