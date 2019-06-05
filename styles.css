@@ -133,3 +133,43 @@ img:active {
 		margin-left: 1.5%;
 	}
 }
+
+@media only screen and (min-width: 520px) {
+	
+	body {
+		padding: 0 7.5%;
+	}
+	
+	#roster {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+	}
+	
+	.player {
+		width: 260px;
+		border-top: unset;
+	}
+	
+	.position {
+		display: none;
+	}
+	
+	.full_position, .club {
+		display: unset;
+		float: left;
+	}
+	
+	.info {
+		
+	}
+	
+	.photo {
+		max-width: 260px;
+		clear: left;
+	}
+	
+	#coach {
+		text-align: center;
+	}
+}
