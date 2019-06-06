@@ -229,4 +229,12 @@ img:active {
     font-size: 1.4em;
     margin: 5%;
   }
+	
+  h1 {
+     font-size: 2em;
+  }
+	
+  #roster {
+     flex-direction: row-reverse;	
+  }
 }
