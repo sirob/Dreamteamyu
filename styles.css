@@ -233,4 +233,8 @@ img:active {
   h1 {
      font-size: 3em;
   }
+	
+  .player {
+     margin-bottom: 2%;
+  }
 }
