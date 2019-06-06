@@ -231,10 +231,10 @@ img:active {
   }
 	
   h1 {
-     font-size: 2em;
+     font-size: 3em;
   }
 	
   #roster {
-     flex-direction: row-reverse;	
+     flex-direction: reverse;	
   }
 }
