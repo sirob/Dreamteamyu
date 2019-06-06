@@ -237,4 +237,8 @@ img:active {
   .player {
      margin-top: 2%;
   }
+	
+   #roster {
+     padding: 0 5%;
+  }
 }
