@@ -226,7 +226,7 @@ img:active {
 @media only screen and (min-width: 1200px) {
 
   body {
-     padding: 7.5% 9%;
+     padding: 0 9%;
   }
 	
   p {
@@ -243,6 +243,6 @@ img:active {
   }
 	
    #roster {
-     padding: 0 5%;
+     padding: 0 6%;
   }
 }
